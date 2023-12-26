@@ -116,13 +116,13 @@ div#header {
 }
 .title::after{
     content:  url(./assets/images/icon-plus.svg);
-    position: absolute;
-    right: -40px; 
+    /* position: absolute; */
+    right: -180px; 
 }
 
 .active::after{
     content: url(./assets/images/icon-minus.svg);
-    right: -40px; 
+    right: -80px; 
     
 }
 

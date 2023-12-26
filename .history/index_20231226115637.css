@@ -99,6 +99,7 @@ div#header {
     font-weight: 700;
     color: var(--darkPurple);
     cursor: pointer;
+    font-size: 1.043em;
 }
 
 .para {
@@ -107,6 +108,7 @@ div#header {
     transition: height 0.5s ease-in 1s;
     overflow: hidden;
     display: none;
+    font-size: 1rem;
 }
 
 .title{
@@ -116,13 +118,13 @@ div#header {
 }
 .title::after{
     content:  url(./assets/images/icon-plus.svg);
-    position: absolute;
-    right: -40px; 
+    /* position: absolute; */
+    right: -80px; 
 }
 
 .active::after{
     content: url(./assets/images/icon-minus.svg);
-    right: -40px; 
+    right: -80px; 
     
 }
 

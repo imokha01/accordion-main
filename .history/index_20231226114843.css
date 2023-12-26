@@ -79,9 +79,10 @@ div#header {
 .Div {
     display: flex;
     flex-direction: column;
-    justify-content: space-between ;
+    justify-content: flex-start ;
     padding: 1rem .5rem;
     height: fit-content;
+    boeder
     transition: height 0.5s ease-in;
 
 }
@@ -99,6 +100,7 @@ div#header {
     font-weight: 700;
     color: var(--darkPurple);
     cursor: pointer;
+    /* width: 21.875rem; */
 }
 
 .para {
@@ -107,6 +109,7 @@ div#header {
     transition: height 0.5s ease-in 1s;
     overflow: hidden;
     display: none;
+    font-size: .9rem;
 }
 
 .title{

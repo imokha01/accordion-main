@@ -122,7 +122,7 @@ div#header {
 
 .active::after{
     content: url(./assets/images/icon-minus.svg);
-    right: -40px; 
+    right: -180px; 
     
 }
 

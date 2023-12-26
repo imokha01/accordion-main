@@ -107,6 +107,7 @@ div#header {
     transition: height 0.5s ease-in 1s;
     overflow: hidden;
     display: none;
+    font-size: .9rem;
 }
 
 .title{
@@ -116,7 +117,7 @@ div#header {
 }
 .title::after{
     content:  url(./assets/images/icon-plus.svg);
-    position: absolute;
+    /* position: absolute; */
     right: -40px; 
 }
 
