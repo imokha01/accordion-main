@@ -51,11 +51,9 @@ main  {
     padding: inherit;
     width: inherit;
     overflow: hidden;
-    margin-top: 18em;
+    margin-top: 5rem;
     transition: height 0.5s ease-in 1ms;
     overflow: hidden;
-    transform: scale(1.3);
-    scrollbar-gutter: none ;
 }
 
 #headerpara {
@@ -142,9 +140,7 @@ div#header {
         background-image: url(./assets/images/background-pattern-mobile.svg);
         margin: 0;
     }
-    main {
-        transform: scale(1.02);
-    }
+    
     .wrapper, main {
         width: 100%;
         margin: 3rem -.1rem ;
@@ -156,7 +152,7 @@ div#header {
 
     .title::after,
     .active::after {
-        right: -6.2rem;
+        right: -3.2rem;
     }
 
     
