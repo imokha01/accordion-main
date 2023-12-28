@@ -104,10 +104,16 @@ div#header {
 
 .para {
     color: var(--grayishPurple);
+    height: 100%;
     margin-top: 1.2rem;
-    transition: height 500ms ease-in 1s;
+    
     overflow: hidden;
     display: none;
+}
+
+.para .para1 {
+    transition: height 500ms ease-in 1s;
+    transition: height 500ms ease-in 1s;
 }
 
 .title{

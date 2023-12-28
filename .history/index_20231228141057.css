@@ -51,7 +51,7 @@ main  {
     padding: inherit;
     width: inherit;
     overflow: hidden;
-    margin-top: 7em;
+    margin-top: 8em;
     transition: height 0.5s ease-in 500ms;
     overflow: hidden;
     scrollbar-gutter: none ;
@@ -105,7 +105,7 @@ div#header {
 .para {
     color: var(--grayishPurple);
     margin-top: 1.2rem;
-    transition: height 500ms ease-in 1s;
+    transition: height 0.5s ease-in 1s;
     overflow: hidden;
     display: none;
 }

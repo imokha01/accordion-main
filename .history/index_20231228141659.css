@@ -104,11 +104,13 @@ div#header {
 
 .para {
     color: var(--grayishPurple);
+    height: 100%;
     margin-top: 1.2rem;
     transition: height 500ms ease-in 1s;
     overflow: hidden;
     display: none;
 }
+
 
 .title{
     position: relative;
