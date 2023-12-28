@@ -149,6 +149,10 @@ div#header {
         margin: 3rem -.1rem ;
     }
 
+    /* .title {
+        width: 14rem;
+    } */
+
     .title::after,
     .active::after {
         right: -2.2rem;

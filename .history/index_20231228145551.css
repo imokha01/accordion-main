@@ -123,7 +123,8 @@ div#header {
 .title::after{
     content:  url(./assets/images/icon-plus.svg);
     position: absolute;
-    right: -40px; 
+    right: -40px;
+    left: 0; 
 }
 
 .active::after{
@@ -149,9 +150,13 @@ div#header {
         margin: 3rem -.1rem ;
     }
 
+    /* .title {
+        width: 14rem;
+    } */
+
     .title::after,
     .active::after {
-        right: -2.2rem;
+        right: -6.2rem;
     }
 
     
