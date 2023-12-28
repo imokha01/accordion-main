@@ -116,8 +116,7 @@ div#header {
 
 }
 
-.title p:hover,
-.title p:focus {
+.title p:hover {
     color: #AD2AEB;
 }
 
