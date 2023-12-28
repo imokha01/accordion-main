@@ -144,26 +144,20 @@ div#header {
     main {
         transform: scale(1.02);
     }
-
     .wrapper, main {
         width: 100%;
         margin: 3rem -.1rem ;
     }
 
-
     .title::after,
     .active::after {
-        left: 117%;
+        left:;
     }
 
     .title {
         width: 80%;
     }
     
-    .question {
-        width: 20rem;
-    }
-
     .para {
         font-size: .85rem;
     }

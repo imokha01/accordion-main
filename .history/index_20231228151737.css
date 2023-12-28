@@ -149,8 +149,7 @@ div#header {
         width: 100%;
         margin: 3rem -.1rem ;
     }
-
-
+    
     .title::after,
     .active::after {
         left: 117%;
@@ -160,10 +159,6 @@ div#header {
         width: 80%;
     }
     
-    .question {
-        width: 20rem;
-    }
-
     .para {
         font-size: .85rem;
     }
